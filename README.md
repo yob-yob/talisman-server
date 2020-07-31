@@ -2,13 +2,6 @@
 
 ## talisman online clean server files
 
- And download ssh secure shell (this supprt file transfer too ) from here [William & Mary - SSH Secure Shell Client](https://it.wm.edu/software/public/ssh/sshsecureshellclient-3.2.9.exe)
->  
-
-
-
-Buy VPS From [Vultr.com](https://www.vultr.com/?ref=7212876)
-
 Get Ubuntu 14.04 32 bit then follw this instructions
 
 Here you get details to connect your vps details ip and password 
@@ -16,9 +9,7 @@ so use secure shell to connect vps using ip username is root and password
 ***
 ```sudo apt-get update ```
 ***
-``` sudo apt-get install lamp-server^ -y ```
-***
-```sudo apt-get install phpmyadmin -y ```
+```sudo apt-get install mysql-server ```
 ***
 this will ask for set Database Password So Make Strong Password 
 
@@ -30,7 +21,7 @@ first of all
 ***
 
 ***
-``` git clone https://github.com/tdarkscorpion/NewData.git```
+``` git clone https://github.com/yob-yob/talisman-server.git```
 ***
 then
 
