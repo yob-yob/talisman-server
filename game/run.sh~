@@ -1,6 +1,0 @@
-#!/bin/bash
-cd /home/game
-ulimit -c unlimited
-rm *.pid -f
-/home/game/guard -c /home/game/guard_user.ini
-
