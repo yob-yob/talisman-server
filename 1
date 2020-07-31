@@ -1,5 +1,5 @@
 #!/bin/bash
 cd db
 rm *.pid
-lsof -ti tcp:9006 | xargs kill
+# lsof -ti tcp:9006 | xargs kill
 ./db_server
