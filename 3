@@ -1,4 +1,5 @@
 #!/bin/bash
 cd game 
 rm *.pid
-./game/game_server
+lsof -ti tcp:8886 | xargs kill
+./game_server
