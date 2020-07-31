@@ -30,7 +30,7 @@ then
 ***
 ```cd```
 ***
-Open All``` .INI``` files from ```all folders``` and replace ```128.199.105.184``` this ip to ```your ip ```
+Open All``` .INI``` files from ```all folders``` and replace ```164.90.210.91``` this ip to ```your ip ```
 
 then open ```db``` folder and file name ```db_server_user.ini``` and replace ```22021982``` to your ```sql database password``` 
 
